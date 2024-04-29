@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Execicio HTML E JAVASCRIPT</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    input {
+        width: 100px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    #result {
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+
+<form id="myForm">
+    <label for="numberA">Número A:</label>
+    <input type="number" id="numberA" name="numberA" required>
+    <label for="numberB">Número B:</label>
+    <input type="number" id="numberB" name="numberB" required>
+    <button type="submit">Verificar</button>
+</form>
+
+<div id="result"></div>
+
+<script src="./main.js"></script>
+
+</body>
+</html>
